@@ -103,7 +103,7 @@ withPunctuation:(NSString *)punctuation {
 
 -(BOOL)validIndex:(NSUInteger)index {
     BOOL yesNo = NO;
-    if (index < [self.words count]) {
+    if (index < self.words.count) {
         yesNo = YES;
     }
     return yesNo;
